@@ -1,100 +1,79 @@
 .main-container {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background-color: #f3f4f6; /* Fondo claro para destacar el título */
 }
 
-.turtle-types-image {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+.main-title {
+  font-size: 36px; /* Tamaño del título */
+  font-weight: bold; /* Hace el título más destacado */
+  color: #00567B; /* Azul oscuro para coherencia */
+  margin: 0; /* Elimina margen extra */
+}
+
+.header {
+  margin-top: 20px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #00567B;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #003A52;
 }
 
 .cards-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
 }
 
 .turtle-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 300px;
-    margin: 10px;
-    text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 10px;
+  text-align: center;
 }
 
 .card-header {
-    font-size: 20px;
-    font-weight: bold;
-    padding: 10px;
-    background-color: #00567B;
-    color: white;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+  background-color: #00567B;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .card-body {
-    padding: 20px;
+  padding: 20px;
 }
 
 .turtle-card-image {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
-
-  
-  .turtle-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;  
-  }
-  
-  .text-overlay {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  
-  .nav-links {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .nav-links li {
-    display: inline;
-  }
-  
-  .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 10px 20px;
-    background-color: #00567B;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .nav-links a:hover {
-    background-color: #00567B;
-  }
-  .turtle-card:hover {
-    transform: translateY(-10px); 
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
-}
-  
